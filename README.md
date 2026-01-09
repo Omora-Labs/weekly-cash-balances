@@ -94,21 +94,7 @@ weekly-cash-balances/
 
 ## Architecture
 
-%%{init: {
-  'theme': 'base',
-  'themeVariables': {
-    'primaryColor': '#4A90E2',
-    'primaryTextColor': '#fff',
-    'primaryBorderColor': '#2E5C8A',
-    'lineColor': '#999',
-    'secondaryColor': '#F5A623',
-    'tertiaryColor': '#9B51E0',
-    'background': '#ffffff',
-    'fontSize': '16px',
-    'fontFamily': 'Arial'
-  }
-}}%%
-
+```mermaid
 graph TB
     classDef sourceStyle fill:#E3F2FD,stroke:#1976D2,stroke-width:3px,color:#1976D2
     classDef autoStyle fill:#FFE0B2,stroke:#E65100,stroke-width:3px,color:#E65100
@@ -158,6 +144,7 @@ graph TB
     REP --> L
     REP --> M
     REP --> N
+```
 
 ## License
 
