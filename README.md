@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="public/omora.svg" height="80" alt="Omora Labs" />
+</p>
+
 # weekly-cash-balances
 
 Weekly cash balance tracking with multi-currency reporting built on DuckDB and dbt.
